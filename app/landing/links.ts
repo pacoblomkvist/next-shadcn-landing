@@ -5,11 +5,11 @@ export const navLinks = [
   },
   {
     route: "Features",
-    path: "/#features",
+    path: "landing/#features",
   },
   {
     route: "Contact",
-    path: "/contact",
+    path: "landing/contact",
   },
   {
     route: "Github",

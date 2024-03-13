@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { ModeToggle } from "@/components/mode-toggle"
 import { siteConfig } from "@/config/site"
-import { navLinks } from "@/lib/links"
+import { navLinks } from "@/app/landing/links"
 import { settings } from "@/config/settings"
 
 export default function Navbar() {
@@ -27,7 +27,7 @@ export default function Navbar() {
       <nav className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
-            <Link href="/" onClick={handleClick}>
+            <Link href="/public" onClick={handleClick}>
               <h1 className="text-2xl font-bold duration-200 lg:hover:scale-[1.10]">
                 {siteConfig.name}
               </h1>

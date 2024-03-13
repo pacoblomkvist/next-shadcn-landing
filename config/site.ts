@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
     "Tailwind CSS",
     "Radix UI",
     "shadcn/ui",
-    "Landing Page",
+    "landing Page",
     "Template",
     "Starter",
   ],

@@ -1,13 +1,13 @@
 import Link from "next/link"
 import { siteConfig } from "@/config/site"
-import { navLinks } from "@/lib/links"
+import { navLinks } from "@/app/landing/links"
 
 export default function Footer() {
   return (
     <footer className="mt-auto">
       <div className="mx-auto w-full max-w-screen-xl p-6 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <Link href="/">
+          <Link href="/public">
             <h1 className="mb-2 text-2xl font-bold sm:mb-0">
               {siteConfig.name}
             </h1>
