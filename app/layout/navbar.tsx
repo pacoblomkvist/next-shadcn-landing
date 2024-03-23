@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { ModeToggle } from "@/components/mode-toggle"
 import { siteConfig } from "@/config/site"
-import { navLinks } from "@/app/landing/links"
+import { navLinks } from "@/app/links"
 import { settings } from "@/config/settings"
 
 export default function Navbar() {
