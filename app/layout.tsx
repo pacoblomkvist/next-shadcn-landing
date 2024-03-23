@@ -68,7 +68,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
           className={`${inter.className} flex min-h-screen flex-col bg-background text-primary`}
       >
-      {settings.themeToggleEnabled ? (
+      {/*{settings.themeToggleEnabled ? (
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Navbar/>
             {children}
@@ -80,7 +80,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
             {children}
             <Footer/>
           </ThemeProvider>
-      )}
+      )}*/}
+      <ThemeProvider attribute="class" forcedTheme="light" enableSystem>
+        <Navbar/>
+        {children}
+        <Footer/>
+      </ThemeProvider>
       </body>
       </html>
   )

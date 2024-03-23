@@ -8,10 +8,10 @@ import { SiteConfig, ContactConfig } from "@/types"
 const baseUrl = "https://nextlanding.rdev.pro"
 
 export const siteConfig: SiteConfig = {
-  name: "Next Landing",
-  author: "redpangilinan",
+  name: "Blmk Studio",
+  author: "Blmk Studio 🔥",
   description:
-    "Easy to setup, customizable, quick, and responsive landing page starter built with Next.js and shadcn/ui.",
+    "Simple, Fast and Beautiful Apps.",
   keywords: [
     "Next.js",
     "React",
@@ -30,5 +30,5 @@ export const siteConfig: SiteConfig = {
 }
 
 export const contactConfig: ContactConfig = {
-  email: "janreynald.pangilinan@gmail.com",
+  email: "fgaobal@gmail.com",
 }

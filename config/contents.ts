@@ -8,14 +8,14 @@ import { HeroHeader, ContentSection } from "@/types/contents"
  ==================== */
 
 export const heroHeader: HeroHeader = {
-  header: `Landing pages made easy`,
-  subheader: `Easy to setup. Customizable. Quick. Responsive.`,
-  image: `/hero-img.webp`,
+  header: `Empowering Your Vision, Faster and Simpler`,
+  subheader: `Where Your Goals Meet Our Swift, Streamlined Software Solutions.`,
+  image: `/coffee.svg`,
 }
 
 export const featureCards: ContentSection = {
-  header: `Powered by`,
-  subheader: `What makes Next Landing possible`,
+  header: `Our Value`,
+  subheader: `What, how and why we do it?`,
   content: [
     {
       text: `Next.js`,
@@ -32,13 +32,28 @@ export const featureCards: ContentSection = {
       subtext: `Develop. Preview. Ship.`,
       icon: "vercel",
     },
+    {
+      text: `Async`,
+      subtext: `Your time is gold`,
+      icon: "messy",
+    },
+    {
+      text: `All tied up`,
+      subtext: `We are engineers. we solve problems`,
+      icon: "meditation",
+    },
+    {
+      text: `Simple and beautiful`,
+      subtext: `❤️❤️❤️❤️`,
+      icon: "reading",
+    },
   ],
 }
 
 export const features: ContentSection = {
   header: `Features`,
-  subheader: `Why use Next Landing?`,
-  image: `/features-img.webp`,
+  subheader: `Why choosing us?`,
+  image: `/zombie.svg`,
   content: [
     {
       text: `SEO Optimized`,
@@ -55,5 +70,10 @@ export const features: ContentSection = {
       subtext: `Change your content and layout with little effort`,
       icon: "settings",
     },
+    {
+      text: `Availability`,
+      subtext: `We always have the time for our clients`,
+      icon: "calendar",
+    }
   ],
 }

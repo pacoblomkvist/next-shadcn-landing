@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="mt-auto">
       <div className="mx-auto w-full max-w-screen-xl p-6 md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
+{/*        <div className="sm:flex sm:items-center sm:justify-between">
           <Link href="/public">
             <h1 className="mb-2 text-2xl font-bold sm:mb-0">
               {siteConfig.name}
@@ -21,18 +21,12 @@ export default function Footer() {
               </li>
             ))}
           </ul>
-        </div>
+        </div>*/}
         <hr className="my-6 text-muted-foreground sm:mx-auto lg:my-8" />
         <span className="block text-sm text-muted-foreground sm:text-center">
           © {new Date().getFullYear()}{" "}
-          <a
-            target="_blank"
-            href="https://redpangilinan.live/"
-            className="hover:underline"
-          >
-            Red Pangilinan
-          </a>
-          . All Rights Reserved.
+            Blmk Studio.
+           All Rights Reserved.
         </span>
       </div>
     </footer>

@@ -6,7 +6,7 @@ import { Icons } from "@/components/icons"
 
 export default function FeatureCards() {
   return (
-    <section className="">
+    <section className="bg-amber-100 dark:bg-slate-900">
       <div className="container space-y-8 py-12 text-center lg:py-20">
         {featureCards.header || featureCards.subheader ? (
           <HeadingText subtext={featureCards.subheader}>
@@ -16,7 +16,6 @@ export default function FeatureCards() {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {featureCards.content.map((cards) => {
             const Icon = Icons[cards.icon || "blank"]
-
             return (
               <Card
                 key={cards.text}

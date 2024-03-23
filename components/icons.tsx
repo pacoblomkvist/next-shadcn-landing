@@ -68,6 +68,39 @@ const icons = {
       />
     )
   },
+  messy: () => {
+    return (
+        <Image
+            src="messy.svg"
+            className="dark:brightness-0 dark:invert-[1]"
+            width={200}
+            height={200}
+            alt="Card image"
+        />
+    )
+  },
+  meditation: () => {
+    return (
+        <Image
+            src="meditation.svg"
+            className="dark:brightness-0 dark:invert-[1]"
+            width={200}
+            height={200}
+            alt="Card image"
+        />
+    )
+  },
+  reading: () => {
+    return (
+        <Image
+            src="reading.svg"
+            className="dark:brightness-0 dark:invert-[1]"
+            width={200}
+            height={200}
+            alt="Card image"
+        />
+    )
+  },
 
   // Features
   fileSearch: AiOutlineFileSearch,
